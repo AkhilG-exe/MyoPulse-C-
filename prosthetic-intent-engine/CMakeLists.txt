@@ -15,6 +15,11 @@ add_library(intent_engine STATIC
     src/feature_extractor.cpp
     src/intent_classifier.cpp
     src/proportional_control.cpp
+    src/signal_quality.cpp
+    src/muscle_synergy_graph.cpp
+    src/fatigue_adaptation.cpp
+    src/uncertainty_estimation.cpp
+    src/adaptive_learning.cpp
 )
 
 target_include_directories(intent_engine
